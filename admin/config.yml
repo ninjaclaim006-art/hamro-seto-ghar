@@ -1,0 +1,107 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "content"
+    label: "Website Content"
+    files:
+      - file: "content.json"
+        label: "Hamro Seto Ghar — Page Content"
+        name: "page"
+        fields:
+
+          - label: "Hero (top banner)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Small line above the title", name: "eyebrow", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Tagline", name: "tagline", widget: "string" }
+              - { label: "Primary button text", name: "cta_primary", widget: "string" }
+              - { label: "Secondary button text", name: "cta_secondary", widget: "string" }
+
+          - label: "Quick info strip"
+            name: "strip"
+            widget: "object"
+            fields:
+              - { label: "Hours", name: "hours", widget: "string" }
+              - { label: "Phone", name: "phone", widget: "string" }
+              - { label: "Location", name: "location", widget: "string" }
+
+          - label: "Our Story section"
+            name: "story"
+            widget: "object"
+            fields:
+              - { label: "Small line above heading", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Paragraph 1", name: "paragraph_1", widget: "text" }
+              - { label: "Paragraph 2", name: "paragraph_2", widget: "text" }
+              - { label: "Signature line", name: "signature", widget: "string" }
+
+          - label: "Menu section"
+            name: "menu"
+            widget: "object"
+            fields:
+              - { label: "Small line above heading", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Menu Items"
+                name: "items"
+                widget: "list"
+                summary: "{{name}} — {{price}}"
+                fields:
+                  - { label: "Dish name", name: "name", widget: "string" }
+                  - { label: "Description", name: "note", widget: "string" }
+                  - { label: "Price", name: "price", widget: "string" }
+
+          - label: "Gallery section"
+            name: "gallery"
+            widget: "object"
+            fields:
+              - { label: "Small line above heading", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Helper note", name: "note", widget: "string" }
+              - label: "Photos"
+                name: "photos"
+                widget: "list"
+                summary: "{{caption}}"
+                fields:
+                  - { label: "Photo", name: "image", widget: "image" }
+                  - { label: "Caption (for accessibility)", name: "caption", widget: "string", required: false }
+
+          - label: "Visit Us section"
+            name: "visit"
+            widget: "object"
+            fields:
+              - { label: "Small line above heading", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Address line 1", name: "address_line_1", widget: "string" }
+              - { label: "Address line 2", name: "address_line_2", widget: "string" }
+              - { label: "Hours", name: "hours", widget: "string" }
+              - { label: "Phone", name: "phone", widget: "string" }
+              - { label: "Map caption", name: "map_note", widget: "string" }
+              - { label: "Google Maps link", name: "map_url", widget: "string" }
+
+          - label: "Testimonials section"
+            name: "testimonials"
+            widget: "object"
+            fields:
+              - { label: "Small line above heading", name: "eyebrow", widget: "string" }
+              - label: "Quotes"
+                name: "quotes"
+                widget: "list"
+                summary: "{{author}}"
+                fields:
+                  - { label: "Quote", name: "quote", widget: "text" }
+                  - { label: "Guest name", name: "author", widget: "string" }
+
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - { label: "Footer note", name: "note", widget: "string" }
+              - { label: "Facebook link", name: "facebook", widget: "string", required: false }
+              - { label: "Instagram link", name: "instagram", widget: "string", required: false }

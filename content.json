@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "eyebrow": "हाम्रो सेतो घर · Shantinagar, Jhapa",
+    "title": "Hamro Seto Ghar",
+    "tagline": "A family-run hotel and restaurant in Shantinagar, Jhapa",
+    "cta_primary": "See the Menu",
+    "cta_secondary": "Find Us"
+  },
+  "strip": {
+    "hours": "Open daily · 7:00 AM – 8:00 PM",
+    "phone": "+977 976-2501988",
+    "location": "Shantinagar-04, Jhapa"
+  },
+  "story": {
+    "eyebrow": "Our Story",
+    "heading": "A house that took in guests, and kept the name",
+    "paragraph_1": "Hamro Seto Ghar — \"our white house\" — has been a resting place in Shantinagar for travelers and locals alike, offering simple rooms and home-style food under one roof.",
+    "paragraph_2": "This is placeholder copy — replace it with your own story once the CMS is connected. Talk about who runs the place, how long it's been open, and what guests should expect when they arrive.",
+    "signature": "— The Hamro Seto Ghar family"
+  },
+  "menu": {
+    "eyebrow": "From the Kitchen",
+    "heading": "A short menu, done properly",
+    "items": [
+      { "name": "Dudh Chiya", "note": "Milk tea, slow-brewed with spices", "price": "NPR 40" },
+      { "name": "Kalo Chiya", "note": "Black tea", "price": "NPR 30" },
+      { "name": "Sel Roti", "note": "Rice-flour ring bread, morning batch", "price": "NPR 60" },
+      { "name": "Veg Momo", "note": "Steamed, served with tomato achar", "price": "NPR 150" },
+      { "name": "Chicken Curry", "note": "Home-style, served with rice", "price": "NPR 280" },
+      { "name": "Chow Mein", "note": "Pan-fried noodles, market vegetables", "price": "NPR 170" }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "A Look Inside",
+    "heading": "Photos coming soon",
+    "note": "Add real photos of the rooms, dining area, and food through the CMS — this section fills in automatically.",
+    "photos": []
+  },
+  "visit": {
+    "eyebrow": "Visit Us",
+    "heading": "Find your way to Hamro Seto Ghar",
+    "address_line_1": "Shantinagar-04",
+    "address_line_2": "Jhapa District, Koshi Province, Nepal",
+    "hours": "Every day, 7:00 AM – 8:00 PM",
+    "phone": "+977 976-2501988",
+    "map_note": "Open in Google Maps for directions.",
+    "map_url": "https://www.google.com/maps/place/?q=place_id:ChIJfX3jZwC35TkRsE5L_VXEN_A"
+  },
+  "testimonials": {
+    "eyebrow": "What People Say",
+    "quotes": [
+      { "quote": "Placeholder review — swap this out once you have a few kind words from real guests.", "author": "A future guest" },
+      { "quote": "Placeholder review — the real ones will feel better than anything I write here.", "author": "A future guest" }
+    ]
+  },
+  "footer": {
+    "note": "Built with care for Hamro Seto Ghar, Shantinagar.",
+    "facebook": "#",
+    "instagram": "#"
+  }
+}
