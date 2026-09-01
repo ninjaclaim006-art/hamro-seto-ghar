@@ -22,12 +22,41 @@
     "eyebrow": "From the Kitchen",
     "heading": "A short menu, done properly",
     "items": [
-      { "name": "Dudh Chiya", "note": "Milk tea, slow-brewed with spices", "price": "NPR 40" },
-      { "name": "Kalo Chiya", "note": "Black tea", "price": "NPR 30" },
-      { "name": "Sel Roti", "note": "Rice-flour ring bread, morning batch", "price": "NPR 60" },
-      { "name": "Veg Momo", "note": "Steamed, served with tomato achar", "price": "NPR 150" },
-      { "name": "Chicken Curry", "note": "Home-style, served with rice", "price": "NPR 280" },
-      { "name": "Chow Mein", "note": "Pan-fried noodles, market vegetables", "price": "NPR 170" }
+      {
+        "name": "Dudh Chiya",
+        "note": "Milk tea, slow-brewed with spices",
+        "price": "NPR 40"
+      },
+      {
+        "name": "Kalo Chiya",
+        "note": "Black tea",
+        "price": "NPR 30"
+      },
+      {
+        "name": "Sel Roti",
+        "note": "Rice-flour ring bread, morning batch",
+        "price": "NPR 60"
+      },
+      {
+        "name": "Veg Momo",
+        "note": "Steamed, served with tomato achar",
+        "price": "NPR 150"
+      },
+      {
+        "name": "Chicken Curry",
+        "note": "Home-style, served with rice",
+        "price": "NPR 280"
+      },
+      {
+        "name": "Chow Mein",
+        "note": "Pan-fried noodles, market vegetables",
+        "price": "NPR 170"
+      },
+      {
+        "name": "Biryani",
+        "note": "Biryani with goat meat",
+        "price": "Rs. 400"
+      }
     ]
   },
   "gallery": {
@@ -49,8 +78,14 @@
   "testimonials": {
     "eyebrow": "What People Say",
     "quotes": [
-      { "quote": "Placeholder review — swap this out once you have a few kind words from real guests.", "author": "A future guest" },
-      { "quote": "Placeholder review — the real ones will feel better than anything I write here.", "author": "A future guest" }
+      {
+        "quote": "Placeholder review — swap this out once you have a few kind words from real guests.",
+        "author": "A future guest"
+      },
+      {
+        "quote": "Placeholder review — the real ones will feel better than anything I write here.",
+        "author": "A future guest"
+      }
     ]
   },
   "footer": {
